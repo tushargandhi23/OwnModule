@@ -1,12 +1,23 @@
 {
-  "name": "OwnModule",
-  "version": "1.0.0",
-  "description": "",
+  "name": "ownmodule",
+  "version": "0.0.1",
+  "description": "my own module",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "tushar gandhi",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tushargandhi23/OwnModule.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tushargandhi23/OwnModule/issues"
+  },
+  "homepage": "https://github.com/tushargandhi23/OwnModule#readme"
 }
